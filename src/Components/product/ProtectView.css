@@ -1,0 +1,5 @@
+.ProtectView{
+
+height: 100vh;
+    background-color: var(--productview);
+}

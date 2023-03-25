@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: kk;
+  src: url("../public/Rancho/Rancho-Regular.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: kk !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+:root{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* main pages  */
+
+
+--home:#3ec1d3;
+--about:#f6f7d7;
+--product: #f5ea5a;
+--service: #a31acb;
+--contact:green;
+
+
+/* main h1 contents */
+
+ --home_head_color:#262652;
+
+
+/* 4view pages */
+
+--homeview:rgb(252, 210, 161);
+--aboutview:rgb(252, 210, 161);
+--productview:rgb(252, 210, 161);
+--serviceview:rgb(252, 210, 161);
+
+
 }

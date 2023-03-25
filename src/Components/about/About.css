@@ -1,0 +1,51 @@
+
+:root{
+
+
+    --btn_color_service:rgb(0, 255, 213) ;
+}
+
+.About{
+ 
+height: 100vh;
+width: 100%;
+
+    padding-top: 15%;
+    background-color:var(--about) !important;
+}
+
+
+
+
+/* 
+About btn code..... */
+
+
+
+.About_Btn_Main {
+ padding: 15px 50px;
+ border-radius: 50px;
+ border: 0;
+ background-color: white;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+.About_Btn_Main:hover {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.About_Btn_Main:active {
+ letter-spacing: 3px;
+ background-color: hsl(261deg 80% 48%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
