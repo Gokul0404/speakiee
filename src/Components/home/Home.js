@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <SideMenu />
-      <div className="Home">
+      <div className="Home" id="home">
         <div className="Home_Submain">
           <Container fluid>
             <Row className="main_content_Home">

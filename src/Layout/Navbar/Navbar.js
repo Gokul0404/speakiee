@@ -16,12 +16,17 @@ export default function NavbarMain() {
       <Container className="">
         <Navbar bg="none" expand="lg">
           <Container fluid>
-            <Navbar.Brand href="#">
-              <Image src={require("../../assets/Images/logo.png")} width="70" />
-              <Image
-                src={require("../../assets/Images/spieakieetxt.png")}
-                width="80"
-              />
+            <Navbar.Brand>
+              <Link to="/">
+                <Image
+                  src={require("../../assets/Images/logo.png")}
+                  width="70"
+                />
+                <Image
+                  src={require("../../assets/Images/spieakieetxt.png")}
+                  width="80"
+                />
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
