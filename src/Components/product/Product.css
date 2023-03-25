@@ -7,7 +7,23 @@ width: 100%;
     background-color: var(--product) !important;
 }
 
+@media (max-width:800px){
 
+
+.Product{
+ 
+height: 130vh;
+}
+}
+
+@media (min-width:800px) and (max-width:1001px){
+
+
+.Product{
+ 
+height: 130vh !important;
+}
+}
 
 
 /* product btn code..... */

@@ -7,6 +7,23 @@ width: 100%;
     background-color:var(--service) !important;
 }
 
+@media (max-width:800px){
+
+
+.Service{
+ 
+height: 130vh;
+}
+}
+
+@media (min-width:800px) and (max-width:1001px){
+
+
+.Service{
+ 
+height: 130vh !important;
+}
+}
 
 
 /* Service button..... */

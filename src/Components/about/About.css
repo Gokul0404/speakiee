@@ -14,7 +14,23 @@ width: 100%;
     background-color:var(--about) !important;
 }
 
+@media (max-width:800px){
 
+
+.About{
+ 
+height: 130vh;
+}
+}
+
+@media (min-width:800px) and (max-width:1001px){
+
+
+.About{
+ 
+height: 130vh !important;
+}
+}
 
 
 /* 
