@@ -10,6 +10,7 @@ import { Image } from 'react-bootstrap';
 
 export default function NavbarMain() {
 
+
   // const navigate = useNavigate();
   return (
     <div className="Navbar_Main Navbar_Main_con">
@@ -28,8 +29,8 @@ export default function NavbarMain() {
                 />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
+            <Navbar.Toggle className='tog' />
+            <Navbar.Collapse className='nav_col'>
               <Nav className="mx-auto my-2 my-lg-0 fs-5">
                 <Link to="/" className="px-4 text-decoration-none Nav_Contents">
                   Home
