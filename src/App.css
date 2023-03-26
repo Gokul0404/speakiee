@@ -21,7 +21,7 @@ body {
 --home:#3ec1d3;
 --about:#f6f7d7;
 --product: #f5ea5a;
---service: #a31acb;
+--service:#6fedd6;
 --contact:rgb(219, 255, 219);
 
 
@@ -33,7 +33,7 @@ body {
 /* 4view pages */
 
 --homeview:rgb(252, 210, 161);
---aboutview:rgb(252, 210, 161);
+--aboutview:rgb(252, 228, 200);
 --productview:rgb(252, 210, 161);
 --serviceview:rgb(252, 210, 161);
 

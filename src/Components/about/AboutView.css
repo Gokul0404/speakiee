@@ -1,4 +1,19 @@
 .AboutView{
+    width: 100%;
 height: 100vh;
     background-color: var(--aboutview);
+    background-image: url(../../assets/Images/About.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aview_container{
+
+
+padding-top: 10%;
+}
+.Aview_h1{
+color: white;
+
+text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    font-size: 100px;
 }

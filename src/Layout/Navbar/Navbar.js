@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Navbar/Navbar.css'
 
 import Container from "react-bootstrap/Container";
@@ -9,11 +9,25 @@ import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 
 export default function NavbarMain() {
-
+ const [colorChange, setColorchange] = useState(false);
+ const changeNavbarColor = () => {
+   if (window.scrollY >= 80) {
+     setColorchange(true);
+   } else {
+     setColorchange(false);
+   }
+ };
+ window.addEventListener("scroll", changeNavbarColor);
 
   // const navigate = useNavigate();
   return (
-    <div className="Navbar_Main Navbar_Main_con">
+    <div
+      className={
+        colorChange
+          ? "Navbar_Main Navbar_Main_con_scroll"
+          : "Navbar_Main Navbar_Main_con"
+      }
+    >
       <Container className="">
         <Navbar bg="none" expand="lg">
           <Container fluid>
@@ -29,8 +43,8 @@ export default function NavbarMain() {
                 />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle className='tog' />
-            <Navbar.Collapse className='nav_col'>
+            <Navbar.Toggle className="tog" />
+            <Navbar.Collapse className="nav_col">
               <Nav className="mx-auto my-2 my-lg-0 fs-5">
                 <Link to="/" className="px-4 text-decoration-none Nav_Contents">
                   Home

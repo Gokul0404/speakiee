@@ -13,11 +13,28 @@
     width: 100vw;
  z-index: 1;
     position:fixed;
+    transition: 0.5s ease-in-out;
+
    
 }
+.Navbar_Main_con_scroll{
+
+    width: 100vw;
+ z-index: 1;
+    position:fixed;
+    background-color:rgb(255, 255, 255) ;
+transition:  0.5s ease-in-out;
+height: 8vh;
+-webkit-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+}
+
+.navbar{
 
 
-
+    height: 8vh;
+}
  .Nav_Btn{
 
  font-family: inherit;
@@ -93,4 +110,15 @@ box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
 .Nav_Contents:hover{
 
     color: var(--nav_color_hov)
+}
+
+
+@media (max-width:1001px){
+
+
+    .Navbar_Main_con_scroll{
+
+
+        height: 10vh;
+    }
 }
